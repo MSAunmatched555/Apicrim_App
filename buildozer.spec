@@ -7,7 +7,7 @@ title = Apicrim
 package.name = abelhas
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = edu.ufop
+package.domain = org.novfensec
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -64,7 +64,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.10
+osx.python_version = 3
 
 # Kivy version to use
 osx.kivy_version = 2.3.1
@@ -305,7 +305,7 @@ android.allow_backup = True
 # android.no-byte-compile-python = False
 
 # (str) The format used to package the app for release mode (aab or apk or aar).
-android.release_artifact = aab  
+android.release_artifact = aab
 #TODO check this out
 
 # (str) The format used to package the app for debug mode (apk or aar).
@@ -450,4 +450,5 @@ warn_on_root = 1
 #
 #    Then, invoke the command line with the "demo" profile:
 #
+
 #buildozer --profile demo android debug
